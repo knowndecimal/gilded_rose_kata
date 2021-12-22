@@ -1,6 +1,13 @@
+# frozen_string_literal: true
 
-task :default => :spec
+require 'rake/testtask'
+
+task default: :spec
 
 task :spec do
-  sh "rspec ."
+  sh 'rspec .'
+end
+
+Rake::TestTask.new(:test) do |t|
+  t.test_files = FileList['*_test.rb']
 end

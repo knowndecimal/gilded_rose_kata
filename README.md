@@ -35,21 +35,9 @@ run bundler
 
     bundle
 
-and should be ready to go. Alternatively, you can install the dependencies one by one using gem install, e.g.
-
-    gem install rspec-given
+and should be ready to go.
 
 Have a look at the Gemfile for all dependencies.
-
-## Git Branches
-
-* The 'master' branch contains the starting point for the kata.  It is
-  also tagged as 'start-here'.
-
-* The 'solution1' branch is my first solution for this kata.
-
-Hope you enjoy this.     -- Jim Weirich
-
 
 # Original Description of the Gilded Rose
 

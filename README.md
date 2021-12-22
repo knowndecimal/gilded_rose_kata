@@ -4,9 +4,8 @@ This is a Ruby version of the Gilded Rose Kata, found
 [here](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
 
 This is a refactorying kata, so you will be starting with a legacy
-code base.  To work the Kata, clone this git repository and checkout
-the tag 'start-here'. Read the description below for the "rules"
-involving this kata.
+code base.  To work the Kata, clone this git repository and read 
+the description below for the "rules" involving this kata.
 
 ## Changes from the original
 
@@ -21,6 +20,8 @@ following changes:
   testing the code.  Since I added a test suite, the hard coded values
   were not of much use.  I also changed the interface to accept a list of
   items as a parameter rather than a hard coded constant.
+  
+* We've added a minitest file so you can also use Minitest instead of Rspec.
 
 You can read
 [the original kata article](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/) for more details.
